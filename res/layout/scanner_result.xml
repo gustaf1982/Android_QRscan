@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="Result of Scan"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:background="#87e8c9"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/image_bg"
+        android:autoLink="web|phone|email"
+        android:id="@+id/scanner_result_text"/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="Please Select"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:background="#87e8c9"/>
+	<Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Phone"
+        android:padding="6dp"
+        android:background="@drawable/background_red"
+        android:id="@+id/scanner_result_click_tel"/>
+	<Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Browser"
+        android:background="@drawable/background_red"
+        android:padding="6dp"
+        android:id="@+id/scanner_result_click_web"/>
+	<Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Search"
+        android:background="@drawable/background_red"
+        android:padding="6dp"
+        android:id="@+id/scanner_result_click_search"/>
+
+</LinearLayout>
